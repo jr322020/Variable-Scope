@@ -1,0 +1,19 @@
+Question
+
+What is scope? Your explanation should include the idea of global vs. block scope.
+Why are global variables avoided?
+Explain JavaScript's strict mode
+What are side effects, and what is a pure function?
+
+awnser 
+
+
+The Meaning of  in variable  Scope is the range of code that a variable can be accessed within. If a variable is defined outside of a function,  or if it  is a global variable and can be accessed anywhere in the code
+
+Strict mode does not allow the programmer to declare a variable without the 'let' or 'const' keywords. This way, a new variable is always being created within a function instead of potentially accessing a global variable. 
+
+
+ If a global variable is created, and then a variable with the same name is created within a function, any changes to the variable value that happen within the function will not affect the global variable of the same name. Why are global variables avoided? Global variables can create side effects--unintentional manipulation of a variable's value that can affect other parts of the code and make troubleshooting difficult. 
+
+
+
